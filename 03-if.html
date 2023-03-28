@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 - Comando Condicional IF</title>
+</head>
+<body>
+    <script>
+        
+        
+      /*  if (teste-lógico){
+            código se o teste for verdadeiro
+        } else {
+            código se o teste for falso
+        }
+
+       */
+      //a variavel iade recebe 19
+       var idade = prompt('Digite a idade do convidado'); // tipo numero
+      if(idade>=18){
+      console.log('Maior de idade - pode Entrar')
+    }else{ //senão
+        console.log('Menor de idade - Vai pra Disney')
+    }
+
+    //seu João
+        var beneficiario = prompt('Digite o nome do beneficiário: ')
+        var provaDeVida = 'não'; //Qual o tipo? boolean
+
+        var confirmar = prompt('Vivo? ')
+        
+        if (confirmar == 'sim'){
+            console.log('Beneficio Liberado - Pode Pagar ao sr(a)'+ beneficiario)
+          } else{
+            console.log('Beneficio Suspenso - Não Pagar')
+          }
+
+  
+    </script>
+</body>
+</html>
